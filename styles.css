@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: black;
 }
 li{
     padding: 0;
@@ -102,4 +103,18 @@ box-icon{
 .side-footer{
    position: relative;
    left: 50px;
+}
+
+/*HEADDDDDDDDDDDDDDDDDDDDDDDDDDDDEr*/
+.header-section{
+    display: flex;
+    background-position: right;
+   background-image: url(mainn.jpg);
+   background-repeat: no-repeat;
+   background-size: contain;
+    position: absolute;
+    right: 0;
+    width: 90%;
+    height: 400px;
+    background-color: black;
 }
