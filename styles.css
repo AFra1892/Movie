@@ -1,17 +1,20 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: #040D12;
+    font-family: 'Lato', sans-serif;
 }
+
 li{
     padding: 0;
 }
 /*NAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAV BAr*/
 
 .nav-container{
+
     padding-right: 30px;
     display: flex;
-    background-color: black;
+   background-color: black;
     height: 100px;
     justify-content: flex-end;
     align-items: center;
@@ -48,12 +51,14 @@ box-icon{
 
 /* SIDE   NAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAV BAr*/
 .side-bar{
+
+
     padding: 1rem;
     position:fixed;
     left: 0;
     top: 0;
     height: 100vh;
-    background-color: black;
+   background-color: black;
     width: 200px;
     z-index: 2;
     color: white;
@@ -108,13 +113,45 @@ box-icon{
 /*HEADDDDDDDDDDDDDDDDDDDDDDDDDDDDEr*/
 .header-section{
     display: flex;
+    /* background-color: aqua; */
+    background-image: url("1323224.jpeg");
     background-position: right;
-   background-image: url(mainn.jpg);
    background-repeat: no-repeat;
    background-size: contain;
-    position: absolute;
-    right: 0;
-    width: 90%;
+    
+    width: 700px;
     height: 400px;
-    background-color: black;
+    margin-left: 500px;
+}
+.card-list{
+    margin-left: 200px;
+    padding: 4rem;
+    /* background-color: red; */
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.cards-row{
+    padding-left: .5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 50px;
+}
+.card{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 350px;
+    /* background-color: blue; */
+}
+.card img{
+    height: 300px;
+    width: 100%;
+    border-radius: 18px;
 }
