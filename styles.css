@@ -176,6 +176,17 @@ main{
     color: white;
 }
 .series--card{
-    
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.series--card .card{
+    height: 150px;
+    width: 1000px;
+    border-radius: 18px;
+    background-color: lightgray;
 }
 /*Series.html page*/
