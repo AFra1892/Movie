@@ -155,3 +155,27 @@ box-icon{
     width: 100%;
     border-radius: 18px;
 }
+
+/*Series.html page*/
+main{
+    padding-top: 50px;
+}
+.btn-box{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+
+}
+.btn-box button{
+    width: 100px;
+    height: 35px;
+    font-size: 18px;
+    border-radius: 12px;
+    background-color: lightskyblue;
+    color: white;
+}
+.series--card{
+    
+}
+/*Series.html page*/
